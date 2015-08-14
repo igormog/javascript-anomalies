@@ -1,6 +1,6 @@
 Number.MIN_VALUE > 0; // true
 /*
-Дело в том, что MIN_VALUE это наименьшее число, БОЛЬШЕ НУЛЯ
+MIN_VALUE это наименьшее число, БОЛЬШЕ НУЛЯ
 */
 
 typeof null; // object
@@ -11,12 +11,10 @@ null, хоть и имеет тип "object", не является Object'ом
 
 NaN === NaN; // false
 /*
-Впечатляет, да? Я не могу найти этому объяснения. Автор же просто предполагает, что некоторые люди любят иногда понюхать клей...
+no comment
 */
 
 typeof NaN; // number
 /*
-Вот это сильно. Если вдруг кто не помнит, NaN — not a number.
+NaN — not a number.
 */
-
-* This source code was highlighted with Source Code Highlighter.
