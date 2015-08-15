@@ -18,3 +18,8 @@ typeof NaN; // number
 /*
 NaN — not a number.
 */
+
+
+// Если не поставить ';', то интерпретируется как: var у = f(a+b).toString();
+var у = х + f
+(a+b) . toString( )
