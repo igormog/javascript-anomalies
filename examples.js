@@ -1,24 +1,15 @@
+// MIN_VALUE это наименьшее число, БОЛЬШЕ НУЛЯ
 Number.MIN_VALUE > 0; // true
-/*
-MIN_VALUE это наименьшее число, БОЛЬШЕ НУЛЯ
-*/
 
+// null, хоть и имеет тип "object", не является Object'ом
 typeof null; // object
 null === Object; // false
-/*
-null, хоть и имеет тип "object", не является Object'ом
-*/
 
+// no comment
 NaN === NaN; // false
-/*
-no comment
-*/
 
+// NaN — not a number.
 typeof NaN; // number
-/*
-NaN — not a number.
-*/
-
 
 // Если не поставить ';', то интерпретируется как: var у = f(a+b).toString();
 var у = х + f
