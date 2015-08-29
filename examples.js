@@ -20,6 +20,8 @@ x == NaN; // Неправильно
 х != х; // Правильно
 isNaN(x); // Правильно
 
+// test
+
 function Stack() {
   //private
   var stack = new Array();
