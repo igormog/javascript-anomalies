@@ -20,30 +20,6 @@ x == NaN; // Неправильно
 х != х; // Правильно
 isNaN(x); // Правильно
 
-
-
-function Stack() {
-  //private
-  var stack = new Array();
-  var savetype = function (value) {
-    this.pushed_type = typeof value;
-  }
-
-  //public
-  this.pushed_type = undefined;
-  this.push = function (value) {
-    stack.push(value);
-    savetype(value);
-  }
-  this.pop = function () {
-    if (stack.length > 0) {
-      return stack.pop();
-    } else {
-      return null;
-    }
-  }
-}
-
 function Stack() {
   //private
   var stack = new Array();
